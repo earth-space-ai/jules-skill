@@ -75,6 +75,40 @@ The MOSRS Trac, ticket queue, and branch list itself are auth-walled and
 not directly readable. This skill links to them and explains the access
 flow rather than reproducing private content.
 
+## Acknowledgments
+
+**Gold-standard references for JULES** (use these to cross-check anything in this skill):
+- JULES user guide: https://jules-lsm.github.io/
+- JULES tutorial portal: https://jules-lsm.github.io/tutorial/bg_info/
+- JULES coding standards: https://jules-lsm.github.io/coding_standards/
+- JULES energy balance description: Best et al. 2011, GMD
+- JULES carbon balance description: Clark et al. 2011, GMD
+
+This skill exists only because of the work of other people, and any value it
+has is borrowed from theirs.
+
+- The **Met Office** and the **JULES community** for building and maintaining
+  JULES, publishing the user guide at https://jules-lsm.github.io/, the
+  tutorial portal at https://jules-lsm.github.io/tutorial/bg_info/, and the
+  coding standards at https://jules-lsm.github.io/coding_standards/.
+- **Best et al. (2011)** and **Clark et al. (2011)** for the JULES technical
+  description papers in *Geoscientific Model Development*, the canonical
+  references that anchor the physics framing in this skill.
+- **Martin Best** for the JULES upgrade procedure (Best 2010) that this
+  skill teaches users to follow when applying upgrade macros.
+- The **MOSRS** team at the Met Office for the Trac / FCM / Rose / Cylc
+  infrastructure that the access, build, and run instructions here lean on.
+- The **JASMIN** team (CEDA/STFC) for the community computing environment
+  that makes JULES tractable for academic users.
+- **Zesen Huang** for [laps-skill](https://github.com/huangzesen/laps-skill),
+  the progressive-disclosure layout this repo borrows.
+- Sibling skills `noahmp-skill`, `ctsm-skill`, `summa-skill`, and `vic-skill`
+  for shared structure and cross-references across land surface models.
+
+Any errors, oversimplifications, or out-of-date claims in this skill are the
+skill author's responsibility, not the upstream community's. MOSRS-walled
+content is described, not reproduced.
+
 ## Install
 
 This skill follows the same layout as
